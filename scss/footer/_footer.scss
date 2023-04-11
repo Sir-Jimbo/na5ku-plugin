@@ -1,0 +1,29 @@
+.footer {
+   padding: 30px 0;
+   background: #333333;
+   margin-top: auto;
+   border-bottom: 1px solid #e3e3e3;
+
+   @media screen and (min-width: 1100px) {
+      border-bottom: none;
+      padding: 35px 0;
+   }
+
+   &__container {
+      @media screen and (min-width: 1100px) {
+         padding-left: 320px;
+      }
+   }
+
+   &__text {
+      color: #ffffff;
+
+      a {
+         color: #ffffff;
+
+         &:hover {
+            text-shadow: 0.5px 0 0 currentColor;
+         }
+      }
+   }
+}

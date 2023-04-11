@@ -1,0 +1,106 @@
+.faq {
+    margin-top: 20px;
+
+    &__title {
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+        margin-bottom: 20px;
+
+        img {
+            margin-right: 13px;
+            margin-left: 0;
+        }
+    }
+
+    &__item {
+        &:last-child {
+            .faq__item--descr {
+                border-bottom: 1px solid #e3e3e3;
+            }
+        }
+
+        &--title {
+            padding: 8px 40px 8px 20px;
+
+            background: #f9f9f9;
+            border: 1px solid #e3e3e3;
+            font-weight: 600;
+
+            color: #333333;
+            position: relative;
+            cursor: pointer;
+
+            @media (min-width: 680px) {
+                font-size: 14px;
+                line-height: 17px;
+                padding: 13px 40px 13px 20px;
+            }
+
+            &:hover {
+                &::before {
+                    filter: brightness(1);
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                background-image: url("../img/acc-arrow.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                top: 0;
+                right: 20px;
+                bottom: 0;
+                left: auto;
+                margin: auto;
+                width: 10px;
+                height: 8px;
+
+                transition: all 0.3s ease-in-out;
+                filter: brightness(0);
+
+                @media (min-width: 680px) {
+                    width: 12px;
+                    height: 10px;
+                }
+            }
+
+            &.active {
+                &::before {
+                    filter: brightness(1);
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        &--descr {
+            padding: 20px 10px;
+            line-height: 20px;
+            color: #000000;
+            background: #ffffff;
+            border: 1px solid #e3e3e3;
+            border-top: none;
+            border-bottom: none;
+            width: calc(100% - 40px);
+            margin: 0 auto;
+            display: none;
+
+            @media (min-width: 680px) {
+                font-size: 14px;
+                padding: 20px 30px;
+            }
+
+            p {
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

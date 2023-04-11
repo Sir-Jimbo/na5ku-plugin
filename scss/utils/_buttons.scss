@@ -1,0 +1,132 @@
+.btn {
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 12px 30px;
+   border-radius: 30px;
+   white-space: nowrap;
+   min-width: 63px;
+   width: 231px;
+   height: 40px;
+   text-transform: uppercase;
+   position: relative;
+
+   &.btn-small {
+      padding: 5px 20px;
+      text-transform: none;
+   }
+
+   &.btn--orange {
+      color: #ffffff;
+      background: linear-gradient(90deg, #f99b38 0%, #fdae59 100%);
+      border: 1px solid #fdad58;
+
+      &:hover {
+         color: #fff;
+         background: #e38b2c;
+      }
+   }
+
+   &.btn--red {
+      color: #cf3a3a;
+      border: 1px solid #cf3a3a;
+
+      &:hover {
+         background-color: #cf3a3a;
+         color: #ffffff;
+      }
+   }
+
+   &.btn--black {
+      color: #333333;
+      border: 1px solid #333333;
+      font-weight: 700;
+
+      &:hover {
+         background-color: #333333;
+         color: #ffffff;
+      }
+   }
+
+   &.btn--green {
+      color: #ffffff;
+      background: linear-gradient(90deg, #80c936 0%, #7cb048 100%);
+
+      &:hover {
+         background: #58822d;
+         color: #fff;
+      }
+   }
+
+   &.btn--green-border {
+      color: #333333;
+      border: 1px solid #80c936;
+
+      &:hover {
+         color: #ffffff;
+         background: linear-gradient(90deg, #80c936 0%, #7cb048 100%);
+         border: 1px solid #7fc93600;
+
+         span {
+            border-left: 1px solid #fff;
+         }
+
+         div {
+            text-transform: none !important;
+            font-weight: 600;
+         }
+
+         .quest-tippy::before {
+            color: #fff;
+         }
+      }
+   }
+
+   &.btn--grey {
+      background: linear-gradient(90deg, #797979 0%, #5c5c5c 100%);
+      color: #fff;
+
+      div {
+         text-transform: none !important;
+         font-weight: 600;
+      }
+
+      &:hover {
+         background: #58822d;
+      }
+
+      &:active {
+         background: linear-gradient(90deg, #80c936 0%, #7cb048 100%);
+      }
+   }
+
+   &.btn--white {
+      border: 1px solid #ffffff;
+      color: #fff;
+
+      &:hover {
+         color: #000000;
+         background-color: #fff;
+      }
+   }
+}
+
+.btn-more {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 170px;
+   height: 26px;
+   background: #f9f9f9;
+   border: 1px solid #333333;
+   border-radius: 25px;
+   padding: 5px 15px;
+
+   &:hover {
+      background-color: #333333;
+      color: #fff;
+   }
+}

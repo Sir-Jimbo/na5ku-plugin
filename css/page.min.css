@@ -1,0 +1,2 @@
+.page{padding:20px 0 50px}@media screen and (min-width: 768px){.page{padding:50px 0}}.page__container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.page__left{display:none}@media screen and (min-width: 1100px){.page__left{display:block;width:270px}}.page__right{width:100%}@media screen and (min-width: 1100px){.page__right{width:calc(100% - 290px)}}.page__title{font-weight:700;font-size:16px;line-height:20px;color:#000000;margin-bottom:25px}
+/*# sourceMappingURL=page.min.css.map */

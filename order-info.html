@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#111111">
+	<title>Page</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/vendor.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__left">
+					<a class="header__logo" href="#">
+						<img src="img/logo.png" alt="logo" width="58" height="40">
+					</a>
+					<div class="header__description">
+						Курсові та дипломні роботи на замовлення в Україні
+					</div>
+					<div class="header__contacts">
+						<a href="tel:0800334815">0 800 334 815</a>
+						безкоштовно з усіх номерів
+						<span>Пн-Пт з 9.00 до 18.00</span>
+					</div>
+				</div>
+				<div class="header__center">
+					<a href="#" class="header__btn btn btn--orange">
+						ДОДАТИ ЗАМОВЛЕННЯ
+					</a>
+				</div>
+				<div class="header__right">
+					<div class="header__money">
+						<img class="header__money--icon" src="img/money-icon.svg" alt="img">
+						Мій бонус: <span class="header__money--num">0</span> UAH
+						<span class="header__money--quest tippy" data-tippy-content="Подсказка">?</span>
+					</div>
+					<div class="header__chat">
+						<span class="header__chat--num">65</span>
+						<div class="header__chat--new-messages">
+							<a href="#">
+								Нові повідомлення (1)
+								в замовленні <span>id-6666-666</span>
+							</a>
+							<a href="#">
+								Нові повідомлення (2)
+								в замовленні <span>id-6666-666</span>
+							</a>
+							<a href="#">
+								Нові повідомлення (3)
+								в замовленні <span>id-6666-666</span>
+							</a>
+						</div>
+					</div>
+					<div class="header__profile">
+						<div class="header__profile--icon">
+							<img src="img/profile-icon.svg" alt="img">
+						</div>
+						<div>
+							<div class="header__profile--name">Elvis</div>
+							<div class="header__profile--position">Студент</div>
+						</div>
+					</div>
+					<div class="header__lang">
+						<div class="header__lang--active">UA</div>
+						<div class="header__lang--list">
+							<a href="#">RU</a>
+							<a href="#">EN</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+
+
+
+			<div class="page__container">
+				<div class="page__left">
+					<ul class="page__menu" data-da=".mobile-menu, 1099, 1">
+						<li class="page__menu--item active more-list">
+							<div class="page__menu--item-title">
+								Мої замовлення
+							</div>
+							<ul class="page__menu--item-list">
+								<li><button class="page__menu--item-link" data-tab="all">Всі (52)</button></li>
+								<li><button class="page__menu--item-link active" data-tab="in-work">Активні (2)</button>
+								</li>
+								<li><button class="page__menu--item-link" data-tab="completed">Завершені (50)</button>
+								</li>
+							</ul>
+						</li>
+						<li class="page__menu--item">
+							<a href="/bonuses.html" class="page__menu--item-title">
+								Мої бонуси
+							</a>
+						</li>
+						<li class="page__menu--item">
+							<a href="/discount.html" class="page__menu--item-title">
+								Знижки
+							</a>
+						</li>
+						<li class="page__menu--item">
+							<a href="/faq.html" class="page__menu--item-title">
+								FAQ
+							</a>
+						</li>
+						<li class="page__menu--item">
+							<a href="#" class="page__menu--item-title">
+								Мій профіль
+							</a>
+						</li>
+						<li class="page__menu--item">
+							<a href="#" class="page__menu--item-title">
+								Вийти
+							</a>
+						</li>
+					</ul>
+					<div class="page__banners">
+						<a href="#" class="page__banner">
+							<img src="img/baneer-img.jpg" alt="img">
+						</a>
+						<a href="#" class="page__banner">
+							<img src="img/baneer-img2.jpg" alt="img">
+						</a>
+					</div>
+				</div>
+
+				<div class="page__right">
+					<h1 class="page__title">
+						Замовлення “Название работы”
+					</h1>
+					<div class="page__tabs">
+						<button class="page__tab active" data-tab="info-pay">
+							Інфо та оплата
+						</button>
+						<button class="page__tab tab-file" data-tab="file">
+							Файли
+							<span class="length-num file-num">2</span>
+						</button>
+						<button class="page__tab tab-chat" data-tab="chat">
+							Чат з менеджером
+							<span class="length-num chat-num">65</span>
+						</button>
+					</div>
+					<div class="page__content info-pay">
+						<div class="page__content--top">
+							<div class="page__content--title">
+								Ми пишемо вашу роботу
+							</div>
+							<button class="btn btn-small btn--red">
+								Відмінити
+							</button>
+						</div>
+						<div class="info-pay-wrap">
+							<div class="info-pay-table table-info">
+								<ul>
+									<li>
+										Номер замовлення:
+										<div>id-6255-879</div>
+									</li>
+									<li>
+										Тип замовлення:
+										<div>Задача</div>
+									</li>
+									<li>
+										Предмет:
+										<div>Менеджмент</div>
+									</li>
+									<li>
+										Тема роботи:
+										<div>Тест оплаты 2</div>
+									</li>
+									<li>
+										Дата оформлення:
+										<div>2022/08/03 15:30</div>
+									</li>
+									<li>
+										Термін здачі:
+										<div>2022/08/03 15:30</div>
+									</li>
+									<li>
+										Оригінальність роботи по еТХТ:
+										<div>30%</div>
+									</li>
+									<li>
+										Кіл-ть сторінок:
+										<div>2</div>
+									</li>
+									<li>
+										Додаткові вимоги:
+										<div>id-6255-879</div>
+									</li>
+								</ul>
+								<div class="table-info-btns">
+									<button class="show-chat btn btn-small btn--black">
+										Чат
+										<span class="length-num chat-num">65</span>
+									</button>
+									<button class="show-file btn btn-small btn--black">
+										Файли
+										<span class="length-num file-num">2</span>
+									</button>
+								</div>
+							</div>
+							<div class="info-pay-table table-pay">
+								<ul>
+									<li>
+										Стоимость заказа (с учетом скидки):
+										<div><span>60</span> UAH</div>
+									</li>
+									<li>
+										Оригинальная цена:
+										<div><span>600</span> UAH</div>
+									</li>
+									<li>
+										Скидка:
+										<div><span>520</span> UAH</div>
+									</li>
+									<li>
+										Заплачено:
+										<div><span>60</span> UAH</div>
+									</li>
+									<li>
+										Осталось заплатить:
+										<div><span>60</span> UAH</div>
+									</li>
+								</ul>
+								<div class="table-pay__btns">
+									<a href="#" class="btn btn--green">
+										ВНЕСТИ ПЕРЕДОПЛАТУ
+									</a>
+									<a href="#" class="btn btn--green-border">
+										ВВЕСТИ ПРОМОКОД
+										<span class="quest-tippy btn-tippy tippy" data-tippy-content="Подсказка"></span>
+									</a>
+									<a href="#" class="btn btn--green-border">
+										ОПЛАТИТИ БОНУСАМИ
+										<span class="quest-tippy btn-tippy tippy" data-tippy-content="Подсказка"></span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="page__content file hide">
+						<div class="page__content--top">
+							<div class="page__content--title">
+								Повна версія роботи доступна після повної оплати
+							</div>
+						</div>
+						<div class="file-wrap">
+							<div class="file-wrap-col">
+								<div class="file-wrap-col__title">
+									Файли від автора:
+								</div>
+								<div class="file-item-wrap">
+									<div class="file-item">
+										<div class="file-item__name">
+											123.pdf
+										</div>
+										<time class="file-item__date" datetime="2021-07-20 14:20:44">
+											14:20:44 20/07/2021
+										</time>
+										<a href="#" download="#" class="btn-download btn btn-small btn--black">
+											Завантажити
+										</a>
+									</div>
+									<div class="file-item">
+										<div class="file-item__name">
+											123.pdf
+										</div>
+										<time class="file-item__date" datetime="2021-07-20 14:20:44">
+											14:20:44 20/07/2021
+										</time>
+										<a href="#" download="#" class="btn-download btn btn-small btn--black">
+											Завантажити
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="file-wrap-col">
+								<div class="file-wrap-col__title">
+									Ваші файли:
+								</div>
+								<div class="file-item-wrap">
+									<div class="file-item">
+										<div class="file-item__name">
+											123.pdf
+										</div>
+										<time class="file-item__date" datetime="2021-07-20 14:20:44">
+											14:20:44 20/07/2021
+										</time>
+										<button class="file-item__remove btn btn-small btn--black"></button>
+									</div>
+									<div class="file-item">
+										<div class="add-file btn btn-small btn--black">
+											<input type="file">
+											+ Додати файл
+										</div>
+									</div>
+									<div class="file-item">
+										<div class="number-files">
+											+ Завантаження файлів:
+											<span>Кіл-сть файлів: 1</span>
+										</div>
+									</div>
+								</div>
+								<button class="btn__send btn btn-small btn--green">
+									Відправити
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="page__content chat hide">
+						<div class="page__content--top">
+							<div class="page__content--title">
+								Марія онлайн в робочі дні з 9:00 до 18:00
+							</div>
+						</div>
+						<form class="chat-form">
+							<textarea placeholder="Введіть ваше повідомлення..."></textarea>
+							<div>
+								<button class="chat-form__btn btn btn-small btn--green">
+									Відправити
+								</button>
+								<div class="chat-form__btn add-file btn btn-small btn--black">
+									<input type="file">
+									+ Додати файл
+								</div>
+							</div>
+						</form>
+						<div class="chat-message">
+							<div class="message message-manager">
+								<div class="message__profile">
+									<div class="message__icon">
+										<img src="img/message-icon.png" alt="img">
+									</div>
+									<div class="message__name">
+										Марія
+									</div>
+								</div>
+								<div class="message__text">
+									<p>
+										Приветствую! Ваш заказ оценен - мы приступим к выполнению сразу, после внесения
+										предоплаты (450,00 UAH)* <br>
+										После выполнения, работа будет проверена на уникальность и вам станет доступен для
+										скачивания ее фрагмент.<br>
+										Оплатить остаток, вы можете после ознакомления с фрагментом готовой работы.
+									</p>
+									<p class="small-text">
+										*Оплату можно совершить картой любого украинского банка.<br>
+										Заказ был оценен с учетом предоставленной информации. При добавлении новых
+										подробностей стоимость заказа может
+										измениться (в т.ч. и уменьшится).<br>
+										Если работа не будет соответствовать требованиям - вернем деньги!
+									</p>
+									<time class="message-date" datetime="2021-08-29 09:44:03">
+										09:44:03 29.08.2021
+									</time>
+								</div>
+							</div>
+							<div class="message message-user">
+								<div class="message__profile">
+									<div class="message__icon">
+										<img src="img/message-icon2.png" alt="img">
+									</div>
+									<div class="message__name">
+										Student
+									</div>
+								</div>
+								<div class="message__text">
+									<p>
+										Приветствую! Ваш заказ оценен - мы приступим к выполнению сразу, после внесения
+										предоплаты (450,00 UAH)* <br>
+										После выполнения, работа будет проверена на уникальность и вам станет доступен для
+										скачивания ее фрагмент.<br>
+										Оплатить остаток, вы можете после ознакомления с фрагментом готовой работы.
+									</p>
+									<p class="small-text">
+										*Оплату можно совершить картой любого украинского банка.<br>
+										Заказ был оценен с учетом предоставленной информации. При добавлении новых
+										подробностей стоимость заказа может
+										измениться (в т.ч. и уменьшится).<br>
+										Если работа не будет соответствовать требованиям - вернем деньги!
+									</p>
+									<time class="message-date" datetime="2021-08-29 09:44:03">
+										09:44:03 29.08.2021
+									</time>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					© Copyright <a href="#">na5ku.com.ua</a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="mobile-menu">
+			<a href="#" class="mobile-menu__item">
+				Оформити<br>замовлення
+			</a>
+			<a href="#" class="mobile-menu__item">
+				Мої<br>замовлення
+			</a>
+			<a href="#" class="mobile-menu__item">
+				Мої<br>бонуси
+			</a>
+			<div class="mobile-menu__item">
+				<div class="mobile-menu__burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-profile">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal-profile__top">
+						<div class="modal-profile__icon">
+							<img src="img/modal-profile-icon.svg" alt="img">
+						</div>
+						<div>
+							<div class="modal-profile__name">
+								Elvis
+							</div>
+							<div class="modal-profile__position">
+								Студент
+							</div>
+							<div class="modal-profile__email">
+								na5kuads@gmail.com
+							</div>
+						</div>
+					</div>
+					<form action="#" class="form form-profile">
+						<input type="password" placeholder="Новий пароль">
+						<input type="password" placeholder="Повторіть новий пароль">
+						<input type="text" placeholder="Elvis">
+						<input type="tel" placeholder="+38 (066) 666-66-66">
+						<select id="select-modal" class="js-example-basic-single" data-placeholder="Виберіть курс навчання">
+							<option></option>
+							<option value="Виберіть курс навчання1">Виберіть курс навчання1</option>
+							<option value="Виберіть курс навчання2">Виберіть курс навчання2</option>
+						</select>
+						<input type="text" placeholder="Вкажіть ваш ВУЗ">
+						<button class="form__btn form-profile__btn btn btn--green">
+							ЗБЕРЕГТИ ЗМІНИ
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-thanks">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Дякуємо за замовлення
+					</div>
+					<div class="modal-thanks__descr">
+						<p>
+							Ми вже почали пошук підходящого експерта.
+						</p>
+						<p>
+							Зазвичай це займає до 2 годин, але іноді може тривати більше.
+						</p>
+						<p>
+							Нехай очікування буде корисним та приємним - завітайте до наших соц. мереж:
+						</p>
+					</div>
+					<div class="soc-item">
+						<div class="soc-item__wrap">
+							<div class="soc-item__icon">
+								<img src="img/soc-icon.svg" alt="img">
+							</div>
+							<div>
+								Знижки, розіграши, конкурси, лайфхаки та інші корисності
+								<span>Даруємо 50 грн за підписку</span>
+							</div>
+						</div>
+						<a href="#" class="soc-item__btn btn btn-small btn--white">
+							Перейти до Instagram
+							<img src="img/instaBtn.svg" alt="img">
+						</a>
+					</div>
+					<div class="soc-item">
+						<div class="soc-item__wrap">
+							<div class="soc-item__icon">
+								<img src="img/soc-icon2.svg" alt="img">
+							</div>
+							<div>
+								Розважальний контент без цензуры.
+								<span class="age">18 +</span>
+							</div>
+						</div>
+						<a href="#" class="soc-item__btn btn btn-small btn--white">
+							Перейти до TikTok
+							<img src="img/tikTokBtn.svg" alt="img">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-thanks--white">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Дякуємо за замовлення
+					</div>
+					<div class="modal-thanks__descr">
+						<p>
+							Ми вже почали пошук підходящого експерта.
+						</p>
+						<p>
+							Зазвичай це займає до 2 годин, але іноді може тривати більше.
+						</p>
+						<p>
+							Нехай очікування буде корисним та приємним - завітайте до наших соц. мереж:
+						</p>
+					</div>
+					<div class="soc-item">
+						<div class="soc-item__wrap">
+							<div class="soc-item__icon">
+								<img src="img/soc-icon.svg" alt="img">
+							</div>
+							<div>
+								Знижки, розіграши, конкурси, лайфхаки та інші корисності
+								<span>Даруємо 50 грн за підписку</span>
+							</div>
+						</div>
+						<a href="#" class="soc-item__btn btn btn-small btn--white">
+							Перейти до Instagram
+							<img src="img/instaBtn.svg" alt="img">
+						</a>
+					</div>
+					<div class="soc-item">
+						<div class="soc-item__wrap">
+							<div class="soc-item__icon">
+								<img src="img/soc-icon2.svg" alt="img">
+							</div>
+							<div>
+								Розважальний контент без цензуры.
+								<span class="age">18 +</span>
+							</div>
+						</div>
+						<a href="#" class="soc-item__btn btn btn-small btn--white">
+							Перейти до TikTok
+							<img src="img/tikTokBtn.svg" alt="img">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-info modal-info--green">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Дипломна робота <br>
+						ще попереду?
+					</div>
+					<ul class="modal-info__list">
+						<li>
+							Замовляйте <span>безкоштовний план</span> роботи для затвердження з керівником
+						</li>
+						<li>
+							При замовленні повної дипломної роботи ви можете
+							<span>безкоштовно замовити презентацію та промову
+								для
+								захисту</span>
+						</li>
+					</ul>
+					<a href="#" class="modal-info__btn btn btn-small btn--white">
+						Оформити замовлення
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-info modal-info--purple">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Плануєте отримати <br>
+						наукову ступінь?
+					</div>
+					<div class="modal-info__descr">
+						Замовляйте PHD або докторську диссертацію без ризику та з гарантією:
+					</div>
+					<ul class="modal-info__list">
+						<li>
+							Повний <span>супровід до захисту</span>
+						</li>
+						<li>
+							<span>Поетапна оплата</span> та здача роботи
+						</li>
+						<li>
+							Абсолютна <span>анонімність</span>
+						</li>
+					</ul>
+					<a href="#" class="modal-info__btn btn btn-small btn--white">
+						Детальніше про диссертації
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-info modal-bonus modal-info--black">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Вітаємо! Тепер ви можете
+						заробляти разом з нами
+					</div>
+					<div class="coin-item">
+						<img src="img/coin-item.png" alt="img">
+						<div>
+							Вам відкрито <span>бонусний рахунок.</span>
+						</div>
+					</div>
+					<div class="modal-info__descr">
+						Замовляйте PHD або докторську диссертацію без ризику та з гарантією:
+					</div>
+					<a href="#" class="modal-info__btn btn btn-small btn--white">
+						Дізнатися деталі
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal-wrap modal-small modal-info modal-withdrawal modal-info--black">
+			<div class="modal">
+				<div class="modal__body">
+					<div class="modal__close"></div>
+					<div class="modal__title">
+						Вітаємо! Ви отримали статус “Випускник”
+					</div>
+					<div class="coin-item">
+						<img src="img/coin-item.png" alt="img">
+						<div>
+							Відтепер, ваші бонусні кошти доступні для <span>виводу на банківську карту</span>
+						</div>
+					</div>
+					<div class="modal-info__descr">
+						Найактивніші випускники заробляють більше $300 щомісяця
+					</div>
+					<a href="#" class="modal-info__btn btn btn-small btn--white">
+						Дізнатися деталі
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/vendor.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
