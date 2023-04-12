@@ -465,7 +465,9 @@ function closeAllModal() {
 
 closeAllModal(); /////////////////////////////////////////////////////////////////////////
 
-bindModal('.header__profile', '.modal-profile'); //showModal('.modal-thanks');
+bindModal('.header__profile', '.modal-profile');
+bindModal('.my-profile', '.modal-profile');
+//showModal('.modal-thanks');
 //showModal('.modal-thanks--white');
 //showModal('.modal-info--green');
 //showModal('.modal-info--purple');
