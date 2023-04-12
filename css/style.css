@@ -1237,6 +1237,10 @@ img {
   }
 }
 
+.orders__item--title {
+  display: inline-block;
+}
+
 .orders__item--title h2 {
   font-weight: 700;
   font-size: 15px;
@@ -2797,7 +2801,8 @@ textarea::placeholder {
 }
 
 .select2-container {
-  width: 100% !important;
+  display: block;
+  width: unset !important;
   margin-bottom: 10px;
 }
 
